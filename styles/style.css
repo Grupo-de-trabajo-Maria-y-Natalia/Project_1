@@ -1,5 +1,104 @@
-li{
+li {
     list-style-type: none;
     display: inline-block;
     margin: 30px;
+}
+
+/* PARA LOS MENUS DE FILTRO */
+.menu_itemAzul {
+    background-color: #1ab7b7;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.menu_itemAzul a {
+    color: white;
+}
+
+.menu_itemBlanco {
+    background-color: white;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.menu_itemBlanco a {
+    color: #1ab7b7;
+}
+
+/* TITULOS */
+.tituloAzul {
+    color: #1ab7b7;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Segoe UI","Frutiger Linotype","Dejavu Sans","Helvetica Neue","Arial","sans-serif";
+}
+.tituloBlanco {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+/* PARRAFOS */
+.textoBlanco {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+.textoNegro {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+.textoGris {
+    color: #565656;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+
+
+/* PARA ALINEAR VERTICALMENTE */
+.alignItems_flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.alignItems_flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.alignItems_center {
+    display: flex;
+    align-items: center;
+}
+
+/* PARA ALINEAR HORIZONTALMENTE */
+.justifyContent_center {
+    display: flex;
+    justify-content: center;
+}
+
+.justifyContent_flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.justifyContent_flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.justifyContent_space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.justifyContent_space-around {
+    display: flex;
+    justify-content: space-around;
 }
