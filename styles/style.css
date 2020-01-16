@@ -16,6 +16,7 @@ li {
     color: white;
     padding: 5px;
     margin: 5px;
+    font-weight: bold;
     
 
 }
@@ -108,14 +109,7 @@ li {
     justify-content: center;
 }
 
-.flex{
-    display: ;
-}
 
-.container{
-    background-color: #1ab7b7;
-    width: 100%;
-}
 
 
 
