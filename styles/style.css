@@ -4,22 +4,65 @@ li {
     margin: 30px;
 }
 
-h1{
+/* PARA LOS MENUS DE FILTRO */
+.menu_itemAzul {
+    background-color: #1ab7b7;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.menu_itemAzul a {
+    color: white;
+}
+
+.menu_itemBlanco {
+    background-color: white;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.menu_itemBlanco a {
+    color: #1ab7b7;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+/* TITULOS */
+.tituloAzul {
+    color: #1ab7b7;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Segoe UI","Frutiger Linotype","Dejavu Sans","Helvetica Neue","Arial","sans-serif";
+}
+.tituloBlanco {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+/* PARRAFOS */
+.textoBlanco {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+.textoNegro {
     color: black;
     text-align: center;
     font-size: 30px;
-}
-
-.hacer{
-    padding: 20px;
-    border-radius: 10px;
-
 }
 
 .flex{
     display: ;
 }
 
-.menu_item{
-
+.container{
+    background-color: #1ab7b7;
+    width: 100%;
 }
+
+
