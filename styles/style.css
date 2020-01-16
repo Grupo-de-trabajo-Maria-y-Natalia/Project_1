@@ -16,9 +16,12 @@ li {
     color: white;
     padding: 5px;
     margin: 5px;
+<<<<<<< HEAD
     font-weight: bold;
     
 
+=======
+>>>>>>> 67764880313b60b9b1fb9a3590cdabcd59b94cc8
 }
 
 .menu_itemBlanco {
@@ -67,14 +70,20 @@ li {
 }
 .textoNegro {
     color: black;
-    text-align: center;
-    font-size: 30px;
     font-size: 20px;
     font-weight: normal;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+    
 }
 .textoGris {
     color: #565656;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+
+.textoAzul{
+    color: #1ab7b7;
     font-size: 20px;
     font-weight: normal;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
@@ -109,7 +118,27 @@ li {
     justify-content: center;
 }
 
+.justifyContent_flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+.justifyContent_flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.justifyContent_space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.justifyContent_space-around {
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
+/* FONDOS DE SECCION */
+.queHacer{
+    background-color: #1ab7b76c;
+    max-width: 100%;
+    
+}
 
