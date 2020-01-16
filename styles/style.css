@@ -16,8 +16,6 @@ li {
     color: white;
     padding: 5px;
     margin: 5px;
-    
-
 }
 
 .menu_itemBlanco {
@@ -108,14 +106,25 @@ li {
     justify-content: center;
 }
 
-.flex{
-    display: ;
+.justifyContent_flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+.justifyContent_flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.justifyContent_space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.justifyContent_space-around {
+    display: flex;
+    justify-content: space-around;
 }
 
-.container{
-    background-color: #1ab7b7;
-    width: 100%;
+/* FONDOS DE SECCION */
+.queHacer{
+    background-color: #1ab7b76c;
 }
-
-
 
