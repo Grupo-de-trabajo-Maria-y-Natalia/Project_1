@@ -8,26 +8,34 @@ li {
 .menu_itemAzul {
     background-color: #1ab7b7;
     margin: 2em;
-    padding: 1em;
+    padding: 10px;
     border-radius: 10px;
 }
 
 .menu_itemAzul a {
     color: white;
+    padding: 5px;
+    margin: 5px;
+    
+
 }
 
 .menu_itemBlanco {
     background-color: white;
     margin: 2em;
-    padding: 1em;
+    padding: 10px;
     border-radius: 10px;
 }
 
 .menu_itemBlanco a {
     color: #1ab7b7;
-    margin: 2em;
-    padding: 1em;
     border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.noWrap{
+    flex-wrap:nowrap;
 }
 
 /* TITULOS */
@@ -43,6 +51,12 @@ li {
     font-weight: bolder;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
 }
+.tituloNegro {
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
 /* PARRAFOS */
 .textoBlanco {
     color: white;
@@ -54,6 +68,44 @@ li {
     color: black;
     text-align: center;
     font-size: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+.textoGris {
+    color: #565656;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
+}
+/* PARA ICONOS */
+.iconoAzul{
+    color: #1ab7b7;
+}
+.iconoAmarillo{
+    color: #ffce00;
+}
+
+/* PARA ALINEAR VERTICALMENTE */
+.alignItems_flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.alignItems_flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.alignItems_center {
+    display: flex;
+    align-items: center;
+}
+
+/* PARA ALINEAR HORIZONTALMENTE */
+.justifyContent_center {
+    display: flex;
+    justify-content: center;
 }
 
 .flex{
@@ -64,5 +116,6 @@ li {
     background-color: #1ab7b7;
     width: 100%;
 }
+
 
 
