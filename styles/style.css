@@ -175,11 +175,13 @@
     background-color: blueviolet;
 }
 
-.carta_background {
-    background-image: url(../img/surf.jpg);
+.carta_background{
+    background-image: url(../img/ballena.jpg);
     height: 200px;
     width: 100%;
 }
+
+
 
 /* PARA LA TARJETA DE QUE VER*/
 .tarjeta_fondo {
