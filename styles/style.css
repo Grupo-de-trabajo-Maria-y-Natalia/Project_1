@@ -16,12 +16,6 @@ li {
     color: white;
     padding: 5px;
     margin: 5px;
-<<<<<<< HEAD
-    font-weight: bold;
-    
-
-=======
->>>>>>> 67764880313b60b9b1fb9a3590cdabcd59b94cc8
 }
 
 .menu_itemBlanco {
@@ -142,3 +136,7 @@ li {
     
 }
 
+/*Cards seccion QUÉ HACER en Islandia*/
+.cajas{
+    background-color: blueviolet;
+}
