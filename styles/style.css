@@ -1,7 +1,6 @@
-li {
-    list-style-type: none;
-    display: inline-block;
-    margin: 30px;
+/* CARROUSEL */
+.carousel-inner{
+    height: 400px;
 }
 
 /* PARA LOS MENUS DE FILTRO */
@@ -32,8 +31,8 @@ li {
     margin: 5px;
 }
 
-.noWrap{
-    flex-wrap:nowrap;
+.noWrap {
+    flex-wrap: nowrap;
 }
 
 /* TITULOS */
@@ -41,20 +40,23 @@ li {
     color: #1ab7b7;
     font-size: 30px;
     font-weight: bolder;
-    font-family: "Segoe UI","Frutiger Linotype","Dejavu Sans","Helvetica Neue","Arial","sans-serif";
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
 }
+
 .tituloBlanco {
     color: white;
     font-size: 30px;
     font-weight: bolder;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
 }
+
 .tituloNegro {
     color: black;
     font-size: 25px;
     font-weight: bolder;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
 }
+
 /* PARRAFOS */
 .textoBlanco {
     color: white;
@@ -62,13 +64,15 @@ li {
     font-weight: normal;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
 }
+
 .textoNegro {
     color: black;
     font-size: 20px;
     font-weight: normal;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
-    
+
 }
+
 .textoGris {
     color: #565656;
     font-size: 15px;
@@ -76,18 +80,22 @@ li {
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
 }
 
-.textoAzul{
+.textoAzul {
     color: #1ab7b7;
     font-size: 20px;
     font-weight: normal;
     font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", "Arial", "sans-serif";
 }
+
 /* PARA ICONOS */
-.iconoAzul{
+.iconoAzul {
     color: #1ab7b7;
+    margin: 5px;
 }
-.iconoAmarillo{
+
+.iconoAmarillo {
     color: #ffce00;
+    margin: 2px;
 }
 
 /* PARA ALINEAR VERTICALMENTE */
@@ -116,27 +124,62 @@ li {
     display: flex;
     justify-content: flex-start;
 }
+
 .justifyContent_flex-end {
     display: flex;
     justify-content: flex-end;
 }
+
 .justifyContent_space-between {
     display: flex;
     justify-content: space-between;
 }
+
 .justifyContent_space-around {
     display: flex;
     justify-content: space-around;
 }
 
 /* FONDOS DE SECCION */
-.queHacer{
+.queHacer {
     background-color: #1ab7b76c;
     max-width: 100%;
-    
 }
 
+<<<<<<< HEAD
 /*Cards seccion QUÉ HACER en Islandia*/
 .cajas{
     background-color: blueviolet;
+=======
+/* PARA LA TARJETA DE QUE VER*/
+.tarjeta_fondo{
+    background-color: #1ab7b76c;
+    padding: 17px;
+    border-radius: 27px;
+}
+
+.imgRedonda {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+.imgRedondaUsuario {
+    width: 70px;
+    height: 70px;
+    border-radius: 150px;
+}
+
+.tarjeta_puntuacionMedia {
+    background-color: white;
+    padding: 2px 20px 2px 20px;
+    border-radius: 15px;
+}
+
+.tarjeta_comentario {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 0px 0px 9px 0px;
+>>>>>>> 855e3eb9c404c3af9616e23dd35ca4a2650aa095
 }
