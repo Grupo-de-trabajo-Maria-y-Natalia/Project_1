@@ -146,11 +146,11 @@
     max-width: 100%;
 }
 
-<<<<<<< HEAD
 /*Cards seccion QUÉ HACER en Islandia*/
 .cajas{
     background-color: blueviolet;
-=======
+}
+
 /* PARA LA TARJETA DE QUE VER*/
 .tarjeta_fondo{
     background-color: #1ab7b76c;
@@ -181,5 +181,4 @@
     border-radius: 15px;
     padding: 2px;
     margin: 0px 0px 9px 0px;
->>>>>>> 855e3eb9c404c3af9616e23dd35ca4a2650aa095
 }
